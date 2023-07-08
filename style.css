@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,6 +17,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 60px;
+
 }
 nav > ul{
     display: flex;
@@ -21,6 +27,9 @@ nav > ul{
 }
 nav ul li a{
     text-decoration: none;
+}
+.nav-title{
+    padding: 0px;
 }
 
 nav li{
@@ -34,5 +43,21 @@ nav li{
     border-radius: 2px;
     font-size: 20px;
     border: 0px;
-    padding: 18px 50px;
+    
+}
+header{
+    background: #FFF8F3;;
+}
+
+/* header style end */
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.picture{
+    width: 504px;
+    height: 600px;
+    background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat;
+    
 }
